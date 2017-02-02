@@ -1,0 +1,105 @@
+body {
+	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/fond210.jpg');
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #44241c;
+	font-family: "MS Reference", arial, sans serif;
+	font-weight: bold;
+	color: #7e3535;
+	scrollbar-3d-light-color: #8c6b4a;
+	scrollbar-arrow-color: #8c6b4a;
+	scrollbar-base-color: #d9d2b8;
+	scrollbar-dark-shadow-color: #8c6b4a;
+	scrollbar-face-color: #d9d2b8;
+	scrollbar-highlight-color: #8c6b4a;
+	scrollbar-shadow-color: #8c6b4a;
+}
+td {font-size: 12px;}
+a:link {text-decoration: none; color:#44241c; font-weight: bold; }
+a:visited {font-style: italic; font-weight: bold; text-decoration: 15px; color:#56523D;}
+a:active {text-decoration: none; color: #FFFFCC;}
+a:hover {font-style: normal; color: #FFFFCC; text-decoration: underline;}
+.mh_links {text-decoration: none; color: black;}
+.mh_links:hover {text-decoration: underline; color: #FFFFCC;}
+.mh_titre1 {font-size: 30px; font-style: normal; line-height: normal; font-weight: bold;}
+.mh_titre2 {font-size: 24px; font-style: normal; line-height: normal; font-weight: bold;}
+.mh_titre3 {font-size: 16px; font-style: italic; line-height: normal; font-weight: bold; color: black;}
+.mh_titre4 {font-size: 14px; font-style: normal; line-height: normal; font-weight: bold;}
+.mh_monstres { color: #990000; text-decoration: none; font-weight: bold }
+.mh_trolls_0 { color: black; text-decoration: none; font-weight: bold }
+.mh_trolls_1 { color: #FFFFCC; text-decoration: none; font-weight: bold }
+.mh_texte {color: #3D3A2B;}
+.mh_textbox {
+	background:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/barrex10.jpg');
+	border:2px solid black;
+	color: black;
+	text-align: center;
+}
+.mh_textareabox {
+	border: 1px solid #1E2A63;
+	font-size: 12px;
+	background-color: #FFFFEE;
+	padding: 4px;
+}
+.mh_selectbox {
+	font-size: 12px;
+	background-color: #FFFFEE;
+	padding: 1px;
+}
+.mh_tdborder {
+	border: 1px solid #ffe081;
+	background-color: transparent;
+	padding:2px;
+	/* Pour les bords arrondis et le centrage en pleine page */
+	width:710px;
+	-moz-border-radius:10px;
+}
+.mh_tdtitre {
+	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/barrex10.jpg');
+	color: #FFFFCC;
+	font-size: 12px;
+	font-style: normal
+}
+.mh_tdpage {
+	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/caset10.png');
+	color: black;
+	font-style : italic;
+	font-size: 13px;
+}
+.mh_form_submit {
+	background: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/caset10.png');
+	border: 1px solid #cdc496;
+	color: black;
+	font-family: arial, serif, sans serif;
+	font-style: normal;
+	font-size: 13px ;
+	text-align: center;
+}
+.mh_form_submit:hover {
+	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/caset10.png');
+	color: #243f10;
+	font-style: normal;
+}
+
+/* Flèches navigateur event */
+img[src*="fleched.jpg"] {
+	width:0;
+	height:37px;
+	padding-left:37px;
+	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/flched10.gif');
+}
+img[src*="flecheg.jpg"] {
+	width:0;
+	height:37px;
+	padding-left:37px;
+	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/flcheg10.gif');
+}
+
+/* Puce des distinctions */
+img[src*="greenball.gif"] {
+	width:0;
+	height:16px;
+	padding-left:16px;
+	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/bearpa10.gif');
+}

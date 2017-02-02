@@ -1,0 +1,351 @@
+/* Lien vers les posts forum */
+a {
+	color:black;
+	background-color:none;
+	border-color:none;
+	border-style:none;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:normal;
+	font-family:"Bookman Old Style", Geneva, Arial, Helvetica, sans-serif;
+	font-size:normal;
+}
+a:hover {
+	color:#FFFFCC;
+	background-color:none;
+	border-color:none;
+	border-style:none;
+	text-decoration:underline;
+	font-weight:bold;
+	font-style:normal;
+	font-family:"Bookman Old Style", Geneva, Arial, Helvetica, sans-serif;
+	font-size:normal;
+}
+
+/* Lien vers les noms de mouches, events, profil, envoyer mail, classement */
+.mh_links {
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+}
+.mh_links:hover {
+	color:#FFFFCC;
+	text-decoration:underline;
+	font-weight:bold;
+	background-color:none;
+	border-color:none;
+	font-size:normal;
+}
+
+
+/* Lien vers les trolls */
+.mh_trolls_1 {
+	color:#FFFFCC;
+	border-style:none;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:normal;
+	font-family:"Bookman Old Style", Geneva, Arial, Helvetica, sans-serif;
+	font-size:normal;
+}
+.mh_trolls_1:hover {
+	color:#FFFFCC;
+	border-style:none;
+	text-decoration:underline;
+	font-weight:bold;
+	font-style:normal;
+	font-family:"Bookman Old Style", Geneva, Arial, Helvetica, sans-serif;
+	font-size:normal;
+}
+
+/* Lien vers les monstres */
+.mh_monstres {
+	color:#990000;
+	border-style:none;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:normal;
+	font-family:"Bookman Old Style", Geneva, Arial, Helvetica, sans-serif;
+	font-size:normal;
+}
+.mh_monstres:hover {
+	color:#990000;
+	border-style:none;
+	text-decoration:underline;
+	font-weight:bold;
+	font-style:normal;
+	font-family:"Bookman Old Style", Geneva, Arial, Helvetica, sans-serif;
+	font-size:normal;
+}
+
+/* Première lettre de race, équipement, etc */
+.mh_tdtitre:first-letter {
+	color:#FFE4B5;
+	font-size:18px;
+	font-style:none;
+}
+
+/* Couleurs des écrits du texte, de la barre de défilement, image d'extrême fond (avec les arbres) */
+body {
+	font-family:"Bookman Old Style", arial, sans serif;
+	font-weight:bold;
+	color:#7E3535;
+	scrollbar-3d-light-color:#8C6B4A;
+	scrollbar-arrow-color:#8C6B4A;
+	scrollbar-base-color:#D9D2B8;
+	scrollbar-dark-shadow-color:#8C6B4A;
+	scrollbar-face-color:#D9D2B8;
+	scrollbar-highlight-color:#8C6B4A;
+	scrollbar-shadow-color:#8C6B4A;
+	background-color:#D9D2B8;
+	background-image:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/fond210.jpg');
+	background-attachment:fixed;
+	text-align:center;
+}
+td {
+	width:auto;
+	height:auto;
+	font-family:"Bookman Old Style", "Times new roman", Arial, sans serif;
+	font-style:none;
+	font-size:12px;
+}
+.mh_tdtitre td b {
+	font-family:"Bookman Old Style", "Times new roman", sans serif;
+	font-size:11pt;
+	color:#FFFFCC;
+}
+
+
+/* Puces des distinctions */
+img[src*="bullet_green.jpg"] {
+	width:0;
+	height:16px;
+	padding-left:16px;
+	background-image:url("https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/H2P/bullet_green.gif");
+}
+img[src*="bullet_orange.jpg"] {
+	width:0;
+	height:16px;
+	padding-left:16px;
+	background-image:url("https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/H2P/bullet_orange.gif");
+}
+img[src*="bullet_purple.jpg"] {
+	width:0;
+	height:16px;
+	padding-left:16px;
+	background-image:url("https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/H2P/bullet_purple.gif");
+}
+img[src*="bullet_red.jpg"] {
+	width:0;
+	height:16px;
+	padding-left:16px;
+	background-image:url("https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/H2P/bullet_red.gif");
+}
+
+.mh_tdborder {
+	border:2px solid #FFFF99;
+	background-color:black;
+	padding:2px;
+	/* Pour les bords arrondis et le centrage en pleine page */
+	width:710px;
+	-moz-border-radius:5px;
+}
+
+.mh_tdtitre {
+	background-image:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/barrex10.jpg');
+	background-position:98%;
+	font-family:"Bookman Old Style", sans serif;
+	font-size:13px;
+	color:#FFFFCC;
+	font-style:none;
+}
+
+.mh_selectbox {
+	background-image:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/barrex10.jpg');
+	background-position:98%;
+	font-family:"Bookman Old Style", sans serif;
+	font-size:13px;
+	color:#FFFFCC;
+	font-style:none;
+}
+
+/* Son profil général */
+.mh_titre3 {
+	font-size:17px;
+	font-family:"Bookman Old Style";
+	color:#FFFFCC;
+	font-style:none;
+	text-align:center;
+	line-height:normal;
+	font-weight:bold;
+}
+
+/* Evénements */
+/* Flèches du navigateur d'événements */
+img[src*="fleched.jpg"] {
+	width:0;
+	height:37px;
+	padding-left:37px;
+	background-image:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/flched10.gif');
+}
+img[src*="flecheg.jpg"] {
+	width:0;
+	height:37px;
+	padding-left:37px;
+	background-image:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/flcheg10.gif');
+}
+
+/* Dans événement, fond des colonnes date */
+.mh_tdpage > td[WIDTH="110"] {
+	white-space:nowrap;
+	background-image:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/barrex10.jpg');
+	color:#FFFF99;
+}
+
+/* Fond du type */
+.mh_tdpage > td[width="100"] {
+	white-space:nowrap;
+	background-image:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/caset10.png');
+	color:black;
+}
+
+/* Fond de description */
+.mh_tdpage {
+	background-image:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/caset10.png');
+	color:black;
+}
+
+select {
+	background-color:#8C6B4A !important;
+	border:2px solid #FFFF99;
+	font-style:italic;
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	-moz-border-radius:5px;
+}
+
+hr {
+	width:80%;
+	color:#FFFFCC;
+}
+
+.mh_tdpage {
+	background:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/caset10.png');
+	background-position:3%;
+	color:black;
+}
+
+.mh_titre1 {
+	font-style:normal;
+	background:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/H2P/43406-banniere.jpg') no-repeat center; /* Remplacer par ma bannière */
+	letter-spacing:-15px;
+	height:120;
+	font-size:1;
+	border:none;
+	color:black;
+	background-color:transparent;
+}
+
+.mh_titre3 {
+	font-size:16px;
+	font-style:none;
+	line-height:normal;
+	font-weight:bold;
+	color:#FFFFCC;
+}
+
+/* Petit carré affiché à droite de la sélection d'événement */
+.mh_form_submit {
+	border-left:1px outset #FFFFCC;
+	border-right:1px outset #FFFFCC;
+	border-top:1px outset #FFFFCC;
+	border-bottom:1px outset #FFFFCC;
+	background:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/caset10.png');
+	padding-left:0;
+	padding-top:0;
+	padding-right:0;
+	padding-bottom:1;
+	text-align:center;
+	font-style:bold;
+	font-family:"Bookman Old Style", Comic sans MS, verdana, Georgia;
+	font-size:14px;
+	color:black;
+}
+
+.mh_textbox {
+	color:black;
+	background:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/barrex10.jpg');
+	border:0px solid black;
+	text-align:center;
+	font-family:"Bookman Old Style", verdana, Comic sans MS, sans serif;
+	font-style:italic;
+	font-size:14px;
+}
+
+/* L'info-bulle du matos sous MZ */
+div#infosVue {
+	text-align:center;
+	padding-left:10px;
+	font-family:"Bookman Old Style";
+	font-size:10pt;
+	font-weight:900;
+	text-decoration:none;
+	border:2px solid #CC6D37;
+	min-width:250px;
+	-moz-border-radius:5px;
+	background-color:#DCD5B6;
+}
+
+span a {
+	color:black;
+	text-decoration:none;
+	display:inline;
+}
+
+span a span {
+	color:black;
+	display:none;
+	text-decoration:none;
+	border:0;
+	z-index:1;
+}
+
+span a:hover {
+	color:black;
+	width:250;
+	display:inline;
+	text-decoration:none;
+}
+
+span:hover span {
+	color:black;             /* on met deux fois la même chose car IE et NS */
+	border:1px solid black;  /* ne réagissent pas pareil sans l'espace entre cache et hover */
+	display:block;
+	border-color:#CC6D37;
+	background-color:#DCD5B6;
+	border-style:solid;
+	padding:2;
+	text-decoration:none;
+	position:relative;
+	top:1;
+	left:1;
+	-moz-border-radius:5px;
+}
+
+/* Quand on sélectionne du texte : inspiré par P'kunk (68622) */
+::-moz-selection {
+	background-color:grey;
+	color:#FFFFCC;
+}
+
+h {
+	background:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/caset10.png');
+	background-position:3%;
+	color:black;
+}
+
+li {
+	display:list-item;
+	list-style-image:url("https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/bearpa10.gif");
+}

@@ -1,5 +1,5 @@
 body {
-	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/fond210.jpg');
+	background-image: url('https://xballiet.github.io/CSS_Hedo/fond210.jpg');
 	background-attachment: fixed;
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -31,7 +31,7 @@ a:hover {font-style: normal; color: #FFFFCC; text-decoration: underline;}
 .mh_trolls_1 { color: #FFFFCC; text-decoration: none; font-weight: bold }
 .mh_texte {color: #3D3A2B;}
 .mh_textbox {
-	background:url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/barrex10.jpg');
+	background:url('https://xballiet.github.io/CSS_Hedo/barrex10.jpg');
 	border:2px solid black;
 	color: black;
 	text-align: center;
@@ -56,19 +56,19 @@ a:hover {font-style: normal; color: #FFFFCC; text-decoration: underline;}
 	-moz-border-radius:10px;
 }
 .mh_tdtitre {
-	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/barrex10.jpg');
+	background-image: url('https://xballiet.github.io/CSS_Hedo/barrex10.jpg');
 	color: #FFFFCC;
 	font-size: 12px;
 	font-style: normal
 }
 .mh_tdpage {
-	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/caset10.png');
+	background-image: url('https://xballiet.github.io/CSS_Hedo/caset10.png');
 	color: black;
 	font-style : italic;
 	font-size: 13px;
 }
 .mh_form_submit {
-	background: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/caset10.png');
+	background: url('https://xballiet.github.io/CSS_Hedo/caset10.png');
 	border: 1px solid #cdc496;
 	color: black;
 	font-family: arial, serif, sans serif;
@@ -77,7 +77,7 @@ a:hover {font-style: normal; color: #FFFFCC; text-decoration: underline;}
 	text-align: center;
 }
 .mh_form_submit:hover {
-	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/caset10.png');
+	background-image: url('https://xballiet.github.io/CSS_Hedo/caset10.png');
 	color: #243f10;
 	font-style: normal;
 }
@@ -87,13 +87,13 @@ img[src*="fleched.jpg"] {
 	width:0;
 	height:37px;
 	padding-left:37px;
-	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/flched10.gif');
+	background-image: url('https://xballiet.github.io/CSS_Hedo/flched10.gif');
 }
 img[src*="flecheg.jpg"] {
 	width:0;
 	height:37px;
 	padding-left:37px;
-	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/flcheg10.gif');
+	background-image: url('https://xballiet.github.io/CSS_Hedo/flcheg10.gif');
 }
 
 /* Puce des distinctions */
@@ -101,5 +101,5 @@ img[src*="greenball.gif"] {
 	width:0;
 	height:16px;
 	padding-left:16px;
-	background-image: url('https://dl.dropboxusercontent.com/u/8839206/MH/CSS_Hedo/bearpa10.gif');
+	background-image: url('https://xballiet.github.io/CSS_Hedo/bearpa10.gif');
 }
